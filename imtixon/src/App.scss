@@ -1,0 +1,249 @@
+
+// ::-webkit-scrollbar-track {
+//   background-color: white; /*Цвет скролла*/
+// }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px; /*Закругление ползунка*/
+  background-color: #F5C147; /*Цвет ползунка*/
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar {
+  width: 8px; /*Толщина скролла*/
+  height: 0px;
+}
+
+.home_container{
+  max-width: 1300px;
+  margin: 50px auto;
+}
+.home_iytem{
+  list-style: none;
+  img{
+    width: 1300px;
+  }
+}
+.products_container{
+  max-width: 1250px;
+  margin: 0 auto 50px;
+  h2{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 40px;
+    padding: 0 0 40px;
+  }
+}
+.products_list{
+  display: flex;
+  gap: 40px;
+  overflow-x: scroll;
+}
+.products_iytem{
+  width: 275px;
+  height: 335px;
+  list-style: none;
+  border: 2px solid #F5C147;
+  background-color: #101010;
+  img{
+    width: 271px;
+    height: 170px;
+    background-color: #000;
+  }
+  h2{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 18px;
+    padding: 10px;
+  }
+  p{
+    color: #f1f1f1;
+    font-family: "Inter";
+    font-size: 12px;
+    padding: 0 10px ;
+  }
+}
+.product_page{
+  text-decoration: none;
+}
+.product_container{
+  max-width: 1200px;
+  margin: 30px auto;
+}
+.product_card{
+  list-style: none;
+  img{
+    width: 1200px;
+    height: 500px;
+  }
+  h2{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  p{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 15px;
+  }
+}
+.container_user{
+  max-width: 300px;
+  // height: 900px;
+  background-color: #F5C147;
+  border-radius: 30px;
+  // display: none;
+  padding: 0px 50px 20px 30px;
+  .user_h2{
+    font-family: "Inter";
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 0 ;
+  }
+}
+.user_iytem{
+  list-style: none;
+  padding: 20px;
+  // text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 225px;
+  margin: 0 0 10px 0px;
+  img{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50%;
+  }
+  h2{
+    color: #000;
+    
+  }
+}
+.user__link{
+  text-decoration: none;
+  font-family: "Inter";
+  color: #000;
+}
+.user__link_active1{
+  // background-color: #000 !important;
+  color: #F5C147 !important;
+  // width: 225px !important;
+  // padding: 20px 80px 20px 20px;
+}
+.user_list{
+  button{
+    border: none;
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5C147;
+    margin: 100% 0 20px 20px ;
+    border-radius: 10px;
+  }
+}
+.loading{
+  color: #F5C147;
+  font-size: 30px;
+  font-family: "Inter";
+  padding: 50px;
+}
+.salom{
+  display: flex;
+  gap: 30px;
+}
+// .glavniy_container{
+//   display: flex;
+// }
+.flex{
+  display: flex;
+}
+.create_container{
+  max-width: 900px;
+  margin: 0 50px;
+  .create_h2{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 30px;
+    padding: 15px 0;
+  }
+}
+.create_span{
+  width: 900px;
+  display: block;
+  height: 1px;
+  color: #787878;
+  background-color: #787878;
+  margin-bottom: 25px;
+}
+.create_iytem{
+  list-style: none;
+  h2{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 20px;
+  }
+  .create_input_title{
+    width: 900px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 0 20px;
+    font-family: "Inter";
+    color: #000;
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  textarea{
+    max-width: 900px;
+    // height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 0 20px;
+    font-family: "Inter";
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    width: 900px;
+  }
+}
+.create_list{
+  button{
+    border: none;
+    color: #000;
+    background-color: #F5C147;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-family: "Inter";
+    margin-bottom: 20px;
+  }
+}
+.create_list_flex{
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  input{
+    width: 600px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 0 20px;
+    font-family: "Inter";
+    color: #000;
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  select{
+    width: 280px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 0 20px;
+    padding: 0 10px;
+    color: #000;
+    font-family: "Inter";
+  }
+}

@@ -1,0 +1,35 @@
+.nav_container{
+    max-width: 1400px;
+    margin: 0px auto 0;
+    // justify-content: space-around;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 30px 80px;
+}
+.nav_wrapp{
+
+    h2{
+        color: #fff;
+        font-family: "Inter";
+        font-size: 25px;
+    }
+}
+.nav_list_2{
+    display: flex;
+  }
+.nav_list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+}
+.up_style{
+    display: flex;
+    gap: 30px;
+}
